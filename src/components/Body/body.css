@@ -1,0 +1,51 @@
+.body{
+  background: red;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.right{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: blue;
+}
+
+.left{
+  width: 60%;
+  background: green;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right img{
+  width: 300px;
+}
+
+.button{
+  padding: 15px 25px 15px;
+  border: 2px solid black;
+  margin: 10px;
+  color: black;
+  border-radius: 30px;
+  background-color:#FFFFFF;
+
+}
+.button:hover{
+  border: 2px solid white;
+  margin: 10px;
+  color: white;
+  border-radius: 30px;
+  background-color:#000000;
+
+}
+
+
+/* .button:hover {
+    background-color: rgba(0,0,0,0);
+    color: #3a7999;
+    box-shadow: inset 0 0 0 3px #3a7999;
+    } */
