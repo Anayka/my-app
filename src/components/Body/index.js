@@ -8,9 +8,13 @@ class Body extends Component {
       <div className="body">
 
         <div className="left">
-           <h2>HAZ DE TU VIDA ALGO MÁS SENCILLA</h2>
+           <h2>A UN TOQUE DE HACER TU VIDA</h2>
+           <h2>MÁS SENCILLA</h2>
+           <br></br>
            <p>Blalalala lalalallala lalalallala</p>
            <p>Blalalala lalalal lalalal</p>
+           <br></br>
+           <br></br>
            <button className="button">
               <strong>ENCENDER</strong>
            </button>
